@@ -1,0 +1,16 @@
+README
+setup.py
+oauth2/__init__.py
+yql/__init__.py
+yql/keys.py
+yql/storage.py
+yql.egg-info/PKG-INFO
+yql.egg-info/SOURCES.txt
+yql.egg-info/dependency_links.txt
+yql.egg-info/entry_points.txt
+yql.egg-info/not-zip-safe
+yql.egg-info/requires.txt
+yql.egg-info/top_level.txt
+yql/tests/__init__.py
+yql/tests/test_query_placeholders.py
+yql/tests/test_requests_responses.py

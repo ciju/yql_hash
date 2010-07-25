@@ -1,0 +1,50 @@
+Metadata-Version: 1.0
+Name: yql
+Version: 0.2
+Summary: Python YQL - client library for YQL (Yahoo Query Language)
+Home-page: http://muffinresearch.co.uk/
+Author: Stuart Colville
+Author-email: pypi@muffinresearch.co.uk
+License: BSD
+Description: ==========
+        Python YQL
+        ==========
+        
+        Python YQL is a client library for making queries with Yahoo Query Language.
+        
+        Installation
+        ============
+        
+        ::
+        
+        sudo easy_install yql
+        
+        Usage
+        =====
+        
+        ::
+        
+        >>> import yql
+        >>> y = yql.Public()
+        >>> query = 'select * from flickr.photos.search where text=@text limit 3';
+        >>> y.execute(query, {"text": "panda"})
+        
+        
+        Source-code
+        ===========
+        
+        Branches exist at https://launchpad.net/python-yql
+        
+        Contributions
+        =============
+        
+        Bug-fixes/Features/Patches always welcome - please add branches to the launchpad project.
+        
+        
+Keywords: web YQL
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
